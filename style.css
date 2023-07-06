@@ -48,10 +48,36 @@ li:hover{
     font-size: 20px;
     padding-bottom: 20px;
 }
-.banner-text button{
+button{
     padding: 15px;
     background-color: chartreuse;
     border-radius: 5px;
     border: none;
     font-size: large;
+}
+.about{
+    height: 550px;
+    
+}
+.about h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+}
+.about-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text{
+    margin-left: 300px;
+    margin-right: 100px;
+}
+.about-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
