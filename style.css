@@ -18,8 +18,40 @@ li{
     list-style: none;
     margin-right: 20px;
     font-size: large;
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(90, 236, 90);
+    
 }
 .menu{
     display: flex;
 
+}
+.banner{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    color: aliceblue;
+}
+.banner-img{
+    height: 300px;
+}
+.banner-text h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.banner-text p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.banner-text button{
+    padding: 15px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
 }
