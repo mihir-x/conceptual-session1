@@ -81,3 +81,73 @@ button{
     font-size: 20px;
     margin-bottom: 20px;
 }
+.services{
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    color: aliceblue;
+    height: 600px;
+}
+.service1{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: 4px 2px 105px gray;
+    border: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
+.service1 img{
+    height: 80px;
+    padding: 10px;
+}
+.services h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.service1 h2{
+    padding: 10px;
+}
+.service1 p{
+    padding: 10px;
+}
+.service1 button{
+    background-color: #1b1b1b;
+    color: aliceblue;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-container{
+    height: 400px;
+    background-color: #1b1b1b;
+    color: aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.foot{
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot1{
+    height: 250px;
+    width: 300px;
+    
+}
+.foot1 h1{
+    font-size: 25px;
+    padding: 10px;
+}
+.foot1 p{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 30px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
